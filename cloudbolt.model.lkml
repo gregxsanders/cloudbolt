@@ -11,4 +11,6 @@ datagroup: cloudbolt_default_datagroup {
   max_cache_age: "1 hour"
 }
 
+explore: jobs {}
+
 persist_with: cloudbolt_default_datagroup
