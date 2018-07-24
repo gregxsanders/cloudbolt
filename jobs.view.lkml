@@ -91,6 +91,12 @@ view: jobs {
     sql: ${TABLE}.can_be_requeued ;;
   }
 
+  measure: count {
+    type: count
+  }
+
+
+
 }
 
 # id
